@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Соц сеть</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="avatar.jpg" class="avatar">
+			<h1>Noname</h1>
+			<p class="status" id="status">"Живу, чтобы верить в пастерианцтво"</p>
+		</header>
+
+		<section class="interests">
+			<h2>Мои интересы</h2>
+			<div class="cards">
+				<div class="card">Аниме</div>
+				<div class="card">Геймминг</div>
+				<div class="card">Чтиво</div>
+				<div class="card">Недо-programist</div>
+			</div>
+		</section>
+
+		<section class="memes">
+			<h2>любимые мемы</h2>
+			<div class='memes-grid'>
+				<img src="memes1.jpg" class='meme hidden'>
+				<img src="memes2.jpg" class='meme hidden'>
+				<img src="memes3.jpg" class='meme hidden'>
+				<img src="memes4.jpg" class='meme hidden'>
+				<img src="memes5.jpg" class='meme hidden'>
+				<img src="memes6.jpg" class='meme hidden'>
+			</div>
+		</section>
+
+		<div class="modal" id="modal">
+			<div class="modal-content">
+				<span class="close-btn" id="closeModal">&times</span>
+				<h3 id="modal-title">интерес</h3>
+				<p id="modal-description">описание...</p>
+
+			</div>
+		</div>
+
+	</div>
+	<script src='script.js'></script>
+</body>
+</html>
