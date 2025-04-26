@@ -1,0 +1,1 @@
+# Soc_set_pedik.github.io
