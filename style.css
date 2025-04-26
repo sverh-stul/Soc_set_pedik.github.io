@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #007536;
   }
   
   body {
     font-family: 'Segoe UI', sans-serif;
-    background: #63DC90;
+    background: linear-gradient(135deg,#62DA9A,#FF9273);
     color: #333;
     padding: 20px;
   }
@@ -25,7 +26,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 4px solid #FF8500;
+    border: 4px solid #FF3900;
     margin-bottom: 15px;
   }
   
@@ -56,7 +57,7 @@
   }
   
   .card {
-    background: #7080D7;
+    background: #FF6B40;
     padding: 20px 25px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -114,7 +115,7 @@
     border-radius: 15px;
     width: 90%;
     max-width: 500px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
     position: relative;
     animation: pop-in 0.3s ease;
   }
@@ -142,4 +143,27 @@
   .close-btn:hover {
     color: #000;
   }
-  
+  .projects {
+  	margin-bottom: 40px;
+  }
+  .projects-grid {
+  	direction: flex;
+  	flex-wrap: wrap;
+  	gap: 15px;
+  	justify-content: center;
+  	margin-top: 20px;
+  }
+  .project-card {
+  	background: linear-gradient(135deg, #007536,#FF9273);
+  	color: #62DA9A;
+  	border-radius: 15px;
+  	padding: 15px 25px;
+  	text-decoration: none;
+  	font-weight: bold;
+  	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .project-card:hover{
+  	transform: translateY(-5px);
+  	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  }
